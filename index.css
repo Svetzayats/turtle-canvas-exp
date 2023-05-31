@@ -1,0 +1,71 @@
+.turtle {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.turtle-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 500px;
+}
+
+.turtle-controls-area {
+  flex-grow: 1;
+}
+
+.turtle-canvas-canvas {
+  border: 1px solid lightblue;
+}
+
+.turtle-controls-palette {
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+  width: 500px;
+}
+
+.turtle-errors {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.turtle-controls-palette > div {
+  text-align: center;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.violet {
+  background-color: violet;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css?v=1.0">
+  <title>Canvas</title>
+</head>
+<body>
+  <div class="turtle">
+    <h2>Turtle graphic</h2>
+    <div class="turtle-controls">
+      <textarea id="textarea-commands" class="turtle-controls-area"></textarea>
+      <button id="button-go">Go</button>
+      <button id="button-clear">Clear</button>
+    </div>
+    <div class="turtle-controls-palette">
+      <div class="black">1</div>
+      <div class="red">2</div>
+      <div class="orange">3</div>
+      <div class="yellow">4</div>
+      <div class="green">5</div>
+      <div class="cyan">6</div>
+      <div class="blue">7</div>
+      <div class="violet">8</div>
+    </div>
+    <div class="turtle-canvas">
+      <canvas id="canvas" width="500" height="300" class="turtle-canvas-canvas">Canvas for experiments</canvas>
+    </div>
+    <div id="container-errors" class="turtle-errors"></div>
+  </div>
+  
+</body>
+<script src="./main.js" type="module"></script>
+</html>

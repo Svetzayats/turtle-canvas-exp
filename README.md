@@ -38,7 +38,9 @@ Use popover and popovertarget attributres + ::backdrop and :popover-open for sty
 Now works only in experimental mode of Chrome Beta (you need to go to chrome://flags and switch on Experimental Web Platform features flag). 
 
 [Popover API on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API)
+
 [Popover API on dev chrome](https://developer.chrome.com/blog/introducing-popover-api/)
+
 [Article about Popover API + anchor for positioning](https://dev.to/link2twenty/future-of-css-popover-api-3ba0)
 
 **TODO**

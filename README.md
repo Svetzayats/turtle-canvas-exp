@@ -24,6 +24,22 @@ Simple exercise from "The Pragmatic Programmer" by Andy Hunt and Dave Thomas. We
 
 <code>e [number]</code> - east - draw to the right
 
+## Popover API 
+First acquaintance with experimental API for popovers. 
+
+Why is it cool: 
+- you don't need scripting for opening / closing, positioning 
+- accessible and work with keyboards bindings from the box 
+- easy to use, could be customized 
+
+Use popover and popovertarget attributres + ::backdrop and :popover-open for styling.
+
+Now works only in experimental mode of Chrome Beta (you need to go to chrome://flags and switch on Experimental Web Platform features flag). 
+
+[Popover API on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API)
+[Popover API on dev chrome](https://developer.chrome.com/blog/introducing-popover-api/)
+[Article about Popover API + anchor for positioning](https://dev.to/link2twenty/future-of-css-popover-api-3ba0)
+
 **TODO**
 
-[] Add popup with command's instruction. 
+[x] Add popup with command's instruction. 

@@ -19,7 +19,22 @@ buttonGo.addEventListener('click', () => {
 }); 
 buttonClear.addEventListener('click', () => {
   turtle.clear();
-})
+}); 
+
+/**
+ * Instructions popover fallback 
+ */
+
+const popoverSupported = HTMLElement.prototype.hasOwnProperty("popover");
+if (!popoverSupported) {
+  // subscribe on click events 
+  // change styles 
+  const buttonShowInstractions = document.getElementById('button-instructions'); 
+  const popover = document.getElementById('instruction-popover');
+  buttonShowInstractions.addEventListener('click', () => {
+    popover.classList.toggle('popover-show');
+  })
+}
 
 
 

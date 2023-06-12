@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css?v=1.0">
+  <link rel="stylesheet" href="./index.css?v=1.87">
   <title>Canvas</title>
 </head>
 <body>
@@ -14,6 +14,19 @@
       <textarea id="textarea-commands" class="turtle-controls-area"></textarea>
       <button id="button-go">Go</button>
       <button id="button-clear">Clear</button>
+      <button id="button-instructions" popovertarget="instruction-popover">Show instructions</button>
+      <div id="instruction-popover" popover>
+        <div class="instruction">
+          <strong>Commands for drawing</strong>
+          <div><code>p [number from 1 to 8]</code> - pick color </div>
+          <div><code>d</code> - down - lower the pen</div>
+          <div><code>u</code> - up - raise the pen</div> 
+          <div><code>n [number]</code> - nord - draw upward</div>
+          <div><code>s [number]</code> - south - draw downward</div>
+          <div><code>w [number]</code> - west - draw to the left</div>
+          <div><code>e [number]</code> - east - draw to the right</div>
+        </div>
+      </div>
     </div>
     <div class="turtle-controls-palette">
       <div class="black">1</div>

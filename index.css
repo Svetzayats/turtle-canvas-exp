@@ -69,3 +69,40 @@
 .violet {
   background-color: violet;
 }
+
+:popover-open {
+  width: 300px;
+  inset: unset;
+  bottom: 5px;
+  right: 5px;
+  margin: 0;
+}
+
+#button-instructions {
+  anchor-name: --test-anchor;
+}
+
+#instruction-popover {
+  position: absolute;
+  /**left: calc(anchor(--test-anchor right) + 10px);
+  top: calc(anchor(--test-anchor bottom) + 152px); */
+  transform: translateY(-261%) translateX(-15%);
+}
+
+#instruction-popover.popover-show {
+  transform: translate(0, 0);
+  border: 2px solid black;
+  margin: auto;
+  transform: translate(512px, 98px);
+  border: 2px solid black;
+  margin: auto;
+  width: 300px;
+  padding: 12px;
+
+}
+
+.instruction {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
